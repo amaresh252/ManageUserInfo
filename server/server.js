@@ -66,5 +66,5 @@ async function main() {
 }
 
 server.listen(port, () => {
-  console.log('Starting server at 8080');
+  console.log(`Starting server at ${port}`);
 });
